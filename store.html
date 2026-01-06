@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE | 325_3 Official Website</title>
+    <meta name="description" content="325_3 Official Store">
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <button id="menu-toggle" class="menu-toggle" aria-label="Menu">
+            <span class="menu-label">MENU</span>
+        </button>
+        <div class="logo">
+            <h1><a href="index.html">325_3</a></h1>
+        </div>
+        <div class="lang-switch">
+            <a href="#" class="active">JP</a>
+            <span class="divider">/</span>
+            <a href="#">EN</a>
+        </div>
+    </header>
+
+    <nav id="sidebar" class="sidebar">
+        <button id="menu-close" class="menu-close" aria-label="Close Menu">×</button>
+        <ul class="nav-links">
+            <li><a href="index.html#news">NEWS</a></li>
+            <li><a href="index.html#profile">PROFILE</a></li>
+            <li><a href="index.html#discography">DISCOGRAPHY</a></li>
+            <li><a href="store.html">STORE</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <h2 class="page-title">STORE</h2>
+        </div>
+
+        <section class="store-content">
+            <div class="store-grid">
+                <!-- Dummy Item -->
+                <a href="#" class="product-item fade-in">
+                    <div class="product-image-container">
+                        <img src="images/store_item_01.png" alt="Blue Watercolor T-Shirt" class="product-image">
+                        <div class="status-overlay">COMING SOON</div>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Blue Watercolor T-Shirt</p>
+                        <p class="product-price">¥4,500</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="store.html" rel="noopener noreferrer">STORE</a>
+            <a href="legal.html" rel="noopener noreferrer">特商法に関する表記</a>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 325_3 All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" rel="noopener noreferrer" aria-label="Twitter">TW</a>
+                <a href="#" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+                <a href="#" rel="noopener noreferrer" aria-label="YouTube">YT</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
