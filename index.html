@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>325_3 Official Website</title>
+    <meta name="description" content="325_3 Official Website">
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <button id="menu-toggle" class="menu-toggle" aria-label="Menu">
+            <span class="menu-label">MENU</span>
+        </button>
+        <div class="logo">
+            <h1>325_3</h1>
+        </div>
+        <div class="lang-switch">
+            <a href="#" class="active">JP</a>
+            <span class="divider">/</span>
+            <a href="#">EN</a>
+        </div>
+    </header>
+
+    <nav id="sidebar" class="sidebar">
+        <button id="menu-close" class="menu-close" aria-label="Close Menu">×</button>
+        <ul class="nav-links">
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#profile">PROFILE</a></li>
+            <li><a href="#discography">DISCOGRAPHY</a></li>
+            <li><a href="#store">STORE</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-image-container">
+                    <img src="images/hero_bg.png" alt="Main Visual" class="hero-image">
+                </div>
+                <div class="scroll-indicator">
+                    <span>SCROLL</span>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="content-section">
+            <h2 class="section-title">NEWS</h2>
+            <ul class="news-list">
+                <li class="news-item fade-in">
+                    <span class="date">2026.01.01</span>
+                    <span class="category">OTHER</span>
+                    <a href="#" class="title">ウェブサイトをリニューアルしました</a>
+                </li>
+
+                <li class="news-item fade-in">
+                    <span class="date">2025.12.01</span>
+                    <span class="category">RELEASE</span>
+                    <a href="#" class="title">New Single "透明なノイズ" Release</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="profile" class="content-section">
+            <h2 class="section-title">PROFILE</h2>
+            <div class="profile-container fade-in">
+                <div class="profile-image-container">
+                    <img src="images/artist_main.jpg" alt="325_3 Artist Photo" class="profile-image">
+                </div>
+                <div class="profile-text">
+                    <h3>325_3</h3>
+                    <p>
+                        A mysterious solo artist starting activities in 2025.<br>
+                        Creating soundscapes that drift between reality and dreams.<br>
+                        <br>
+                        2025年始動のソロアーティスト。<br>
+                        現実と夢の狭間を漂うような音像を紡ぐ。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="discography" class="content-section">
+            <h2 class="section-title">DISCOGRAPHY</h2>
+            <div class="disco-grid">
+                <div class="disco-item fade-in">
+                    <img src="images/jacket_transparent_noise.jpg" alt="透明なノイズ" class="disco-thumb">
+                    <p class="disco-title">透明なノイズ</p>
+                </div>
+
+                <div class="disco-item fade-in">
+                    <img src="images/jacket_blue.png" alt="Blue" class="disco-thumb">
+                    <p class="disco-title">Blue</p>
+                </div>
+                <!-- More items -->
+            </div>
+        </section>
+
+        <section id="store" class="content-section">
+            <h2 class="section-title">STORE</h2>
+            <div class="store-banner fade-in">
+                <a href="#" class="store-link" rel="noopener noreferrer">
+                    <span class="store-text">VISIT OFFICIAL STORE</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="#" rel="noopener noreferrer">STORE</a>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 325_3 All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" rel="noopener noreferrer" aria-label="Twitter">TW</a>
+                <a href="#" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+                <a href="#" rel="noopener noreferrer" aria-label="YouTube">YT</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
